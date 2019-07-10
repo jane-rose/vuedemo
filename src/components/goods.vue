@@ -1,5 +1,5 @@
 <template>
-    <!-- HTML代码 必须有大盒子包裹 goodDetails 可以直接在static下直接访问-->
+
   <div class="goods">
     <scroll class="menu-wrapper" ref="menuItem" :data="datas"
      :pulldown="pulldown" @pulldown="loadData" >
